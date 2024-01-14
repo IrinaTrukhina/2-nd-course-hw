@@ -18,6 +18,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 .top__heading{
     color: #FFF;
@@ -26,7 +27,6 @@ body{
     font-weight: 700;
     line-height: normal;
     padding-top: 217px;
-    margin-left: 120px;    
 }
 .top__text{
     color: #FFF;
@@ -37,7 +37,6 @@ body{
     line-height: 32px;
     margin-top: 32px;
     margin-bottom: 44px;
-    margin-left: 120px;
 }
 .top__button{
     width: 234px;
@@ -51,19 +50,32 @@ body{
     font-weight: 400;
     line-height: normal;
     box-sizing: border-box;
-    margin-left: 120px;
 }
 .content{
     background-color: #000915;
     height:556px;
-}
-.content__menu{
+    padding-top: 128px;
+    padding-bottom: 128px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 32px;
-    justify-items: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+    height: 300px;
+
+
 }
+.content__item_img{
+    position: absolute;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.content__item_name{
+    position: relative;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    left: 32px;
+    top: 236px;
+}
+
