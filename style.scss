@@ -82,6 +82,48 @@ body{
         top: 236px;
     }
 }
+.section{
+    background-color: #000915;
+    height: 800px;
+    display: flex;
+    gap: 135px;
+    padding-top: 282px;
+    
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        
+        &_heading{
+            color: #FFF;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_text{
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px;
+        }
+        &_button{
+            width: 234px;
+            height: 48px;
+            border-radius: 30px;
+            background-color: #9C0332;
+            outline: none;
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            box-sizing: border-box;
+        }
+    }
+
+}
 
 @import'tablet';
 @import'mobile';
