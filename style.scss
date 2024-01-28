@@ -51,9 +51,11 @@ body{
         font-weight: 400;
         line-height: normal;
         box-sizing: border-box;
-        
-
+        &:hover {
+            background-color: #EB443F;;
+        }
     }
+
 }
 .top-mob{
     display: none;
@@ -123,6 +125,9 @@ body{
             font-weight: 400;
             line-height: normal;
             box-sizing: border-box;
+            &:hover {
+                background-color: #EB443F;;
+            }
         }
     }
 }

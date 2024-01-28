@@ -57,6 +57,9 @@ body {
   line-height: normal;
   box-sizing: border-box;
 }
+.top__button:hover {
+  background-color: #EB443F;
+}
 
 .top-mob {
   display: none;
@@ -128,6 +131,9 @@ body {
   font-weight: 400;
   line-height: normal;
   box-sizing: border-box;
+}
+.section__content_button:hover {
+  background-color: #EB443F;
 }
 
 .section-mob {
