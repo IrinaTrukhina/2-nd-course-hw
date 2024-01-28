@@ -82,13 +82,16 @@ body{
         top: 236px;
     }
 }
+
 .section{
     background-color: #000915;
     height: 800px;
     display: flex;
     gap: 135px;
-    padding-top: 282px;
-    
+    padding-top: 233px;
+    padding-bottom: 233px;
+    max-height: 333px;
+    align-items: center;
     &__content{
         display: flex;
         flex-direction: column;
@@ -122,7 +125,9 @@ body{
             box-sizing: border-box;
         }
     }
-
+}
+.section-mob{
+    display: none
 }
 
 @import'tablet';

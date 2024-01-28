@@ -62,4 +62,54 @@
             max-width: 343px;           
         }
     }
+    .section{
+        display: none;
+    }
+    .section-mob{
+        background-color: #000915;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        padding-top: 51px;
+        padding-bottom:85px;
+        text-align: center;
+        
+        &__content{
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            flex-wrap: wrap;
+            align-items: center;
+            
+            &_heading{
+                color: #FFF;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                
+            }
+            &_text{
+                color: #FFF;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 22px;
+            }
+            &_button{
+                width: 234px;
+                height: 48px;
+                border-radius: 30px;
+                background-color: #9C0332;
+                outline: none;
+                color: #FFF;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                box-sizing: border-box;
+                
+            }
+        }
+    }
 }
