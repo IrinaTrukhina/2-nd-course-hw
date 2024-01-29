@@ -140,7 +140,7 @@ body {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -194,8 +194,12 @@ body {
   .content {
     grid-template-rows: repeat(3, 1fr);
     row-gap: 32px;
+    justify-content: center;
     grid-template-columns: none;
     height: 900px;
+  }
+  .content__item {
+    min-width: 343px;
   }
   .content .content__item_img {
     max-width: 343px;

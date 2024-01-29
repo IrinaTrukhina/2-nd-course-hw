@@ -1,4 +1,4 @@
-@media (max-width:375px){
+@media (max-width:768px){
     .center{
         padding-left: 16px;
         padding-right: 16px;
@@ -54,13 +54,18 @@
     }
     .content{
         grid-template-rows: repeat(3, 1fr);
-        row-gap: 32px;;
+        row-gap: 32px;
+        justify-content: center;
         grid-template-columns: none;
         height: 900px;
+        &__item{
+            min-width: 343px;
+        }
         
     .content__item_img{
-            max-width: 343px;           
-        }
+        max-width: 343px;   
+              
+    }
     }
     .section{
         display: none;
