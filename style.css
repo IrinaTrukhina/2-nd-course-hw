@@ -136,6 +136,17 @@ body {
   background-color: #EB443F;
 }
 
+.section-next {
+  flex-direction: row-reverse;
+}
+
+.section-bottom__content {
+  align-items: center;
+}
+.section-bottom__content_text {
+  text-align: center;
+}
+
 .section-mob {
   display: none;
 }

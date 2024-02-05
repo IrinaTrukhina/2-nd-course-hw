@@ -131,6 +131,15 @@ body{
         }
     }
 }
+.section-next{
+    flex-direction: row-reverse;
+}
+.section-bottom__content{
+    align-items: center;
+    &_text{
+        text-align: center;
+    }
+}
 .section-mob{
     display: none
 }
