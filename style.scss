@@ -57,9 +57,6 @@ body{
     }
 
 }
-.top-mob{
-    display: none;
-}
 .content{
     background-color: #000915;
     padding-top: 128px;
@@ -140,9 +137,7 @@ body{
         text-align: center;
     }
 }
-.section-mob{
-    display: none
-}
+
 
 @import'tablet';
 @import'mobile';
