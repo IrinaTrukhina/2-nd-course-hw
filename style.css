@@ -214,8 +214,14 @@ body {
   .section__content {
     align-items: center;
   }
+  .section__content_heading {
+    text-align: center;
+  }
   .section__content_text {
     text-align: center;
+  }
+  .section__picture {
+    width: 100%;
   }
   .section-mob {
     background-color: #000915;

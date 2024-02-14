@@ -62,7 +62,8 @@
         }
         
     .content__item_img{
-        max-width: 343px;   
+        max-width: 343px;
+        
               
     }
     }
@@ -74,9 +75,15 @@
         // padding-bottom: 0px;
             &__content{
                 align-items: center;
+                &_heading{
+                    text-align: center; 
+                }
                 &_text{
                     text-align: center;
                 }
+            }
+            &__picture{
+                width: 100%;
             }
     }
 
