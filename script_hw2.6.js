@@ -7,6 +7,7 @@ console.log(numbers[i]);
 
 // Задание 2
 const numbers = [1, 5, 4, 10, 0, 3]
+console.log(numbers.indexOf(4));
 numbers.forEach((el, index) => {console.log(`${index} : ${el}`);
 })
 
@@ -32,11 +33,11 @@ let numbers = [1, 1, 1];
 let result = numbers.push(2, 2, 2);
 console.log(numbers);
 
-//Задание 6
+// //Задание 6
 let items = [9, 8, 7, 'a', 6, 5];
 items.sort()
 items.pop();
-let arr = [console.log(items)];
+console.log(items);
 
 // Задание 7
 let arr = [9, 8, 7, 6, 5];
@@ -100,10 +101,3 @@ console.log(filterPositive([-25, 25, 0, -1000, -2]));
 let myArray = [-1, 0, 5, -10, 56, -25, 25, 0, 1000, -2];
 myArray = myArray.filter(item => item > 0)
 console.log(myArray);
-
-
-
-
-
-
-
