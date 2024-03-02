@@ -59,10 +59,11 @@ getRandomArrNumbers(12);
 
 //Задание 7
 function getRandomNumber(minValue, maxValue) {
-    return (Math.floor(Math.random() * (maxValue - minValue)) + minValue);
+    return (Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue);
 }
 console.log(getRandomNumber(12, 24));
 console.log(getRandomNumber(3, 15));
+console.log(getRandomNumber(1, 2));
 
 
 //Задание 8
